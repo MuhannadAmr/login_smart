@@ -1,0 +1,28 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/3383108.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navLink
+{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+.content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,29 @@
+*
+{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header
+{
+    background-image: url(../img/5086999.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.login-board{
+    border:1px solid white;
+    border-radius:10px;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 50px 10px #000;
+}
+input
+{
+    background: transparent !important;
+    color: white !important;
+}
+.form-control::placeholder
+{
+    color: white !important;
+}
